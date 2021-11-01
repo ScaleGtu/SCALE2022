@@ -456,3 +456,14 @@ footer a {
 		display: none;
 	}
 }
+
+.carousel-item {
+	width: 50vh;
+	height: 25vh;
+	margin: auto;
+	overflow: auto;
+}
+
+.carousel-item {
+	border: 2px solid blue;
+}
