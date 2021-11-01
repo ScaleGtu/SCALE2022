@@ -1,0 +1,10 @@
+.event-hero {
+	/* ! when adding new logo, this section will change */
+
+	background-image: url("../images/speakers/ACA.png");
+	background-color: var(--color-main);
+	background-size: cover;
+	background-position: center center;
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+}
