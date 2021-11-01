@@ -6,6 +6,8 @@
 	--color-nav: #12121267;
 	--color-main: rgba(0, 0, 0, 0.425);
 	--color-nav-mobil: #121212d0;
+
+	--color-local-link: #997d23;
 }
 
 *,
@@ -458,12 +460,40 @@ footer a {
 }
 
 .carousel-item {
-	width: 50vh;
-	height: 25vh;
+	width: 70%;
+	height: 50vh;
 	margin: auto;
 	overflow: auto;
 }
 
-.carousel-item {
-	border: 2px solid blue;
+.carousel-item a {
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	color: var(--color-orange);
+}
+
+.carousel-item a:hover,
+.carousel-item a:active {
+	color: var(--color-local-link);
+}
+
+.local-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 1em;
+}
+
+.local-image {
+	width: 90%;
+	margin: auto;
+	padding: 1em 0;
+}
+
+.local-body {
+	width: 90%;
+	margin: auto;
 }
