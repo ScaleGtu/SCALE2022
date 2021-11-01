@@ -69,19 +69,14 @@ li {
 
 /* logo */
 
-.logo {
-	font-weight: 700;
-	color: var(--color-orange);
-}
-
 .logo-mobile {
-	font-weight: 700;
-	font-size: 2em;
-	text-align: center;
-	color: var(--color-orange);
+	margin: 1.5em auto;
+	width: 30%;
 }
 
 .fit-logo {
+	display: none;
+	margin: auto 0;
 	width: 5%;
 }
 
