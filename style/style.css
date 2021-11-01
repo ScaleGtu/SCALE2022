@@ -331,7 +331,7 @@ main {
 	justify-content: center;
 	align-items: center;
 
-	font-size: clamp(0.5em, 0.1em + 1vw, 1em);
+	font-size: clamp(0.5em, 0.3em + 1vw, 1em);
 
 	background-color: #feb80842;
 	border-bottom-left-radius: 1.1em;
