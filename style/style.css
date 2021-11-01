@@ -15,13 +15,11 @@
 }
 
 html {
-	
 	scroll-behavior: smooth;
 	scroll-padding-top: 4em;
 }
 
 body {
-	
 	font-family: "Poppins", sans-serif;
 	font-size: 1rem;
 	line-height: 1.2;
@@ -220,12 +218,14 @@ main {
 	align-items: center;
 	flex-direction: column;
 
-	background-image: url("../images/background/background-hero.jpg");
+	/* ! when adding new logo, this section will change */
+
+	/* background-image: url("../images/background/background-hero.jpg");
 	background-color: var(--color-main);
 	background-size: cover;
 	background-position: center center;
 	background-blend-mode: multiply;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 }
 
 /* about section */
@@ -443,74 +443,63 @@ footer a {
 	}
 }
 
-.intro
-{
+.intro {
 	width: 100%;
-	background: #FFFFFF;
+	background: #ffffff;
 	padding-top: 115px;
 	padding-bottom: 67px;
 	padding-left: 144px;
 	padding-right: 144px;
 }
-.intro_content
-{
+.intro_content {
 	flex-grow: 1;
 }
-.intro_item_1
-{
-	width: calc((100% - 60px) );
+.intro_item_1 {
+	width: calc((100% - 60px));
 	background: #f3f7f9;
 	margin-bottom: 48px;
 }
-.intro_item_2
-{
+.intro_item_2 {
 	width: calc((100% - 60px) / 2);
 	background: #f3f7f9;
 	margin-bottom: 48px;
 }
-.intro_item_3
-{
+.intro_item_3 {
 	width: calc((100% - 60px) / 3);
 	background: #f3f7f9;
 	margin-bottom: 48px;
 }
-.intro_item_4
-{
+.intro_item_4 {
 	width: calc((100% - 60px) / 4);
 	background: #f3f7f9;
 	margin-bottom: 48px;
 }
 
-.intro_item_speaker
-{
+.intro_item_speaker {
 	width: calc((100% - 60px) / 4);
 	background: #f3f7f9;
 	margin-bottom: 48px;
 }
 
-.intro_image
-{
+.intro_image {
 	width: 100%;
 }
-.intro_image img
-{
+.intro_image img {
 	max-width: 100%;
 }
-.intro_body
-{
+.intro_body {
 	padding-left: 39px;
 	padding-top: 33px;
 	padding-bottom: 39px;
 }
-.intro_body::after
-{
+.intro_body::after {
 	display: block;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	content: '';
+	content: "";
 	background-color: #4867c0;
 	background-image: linear-gradient(to right, #4867c0, #329fec);
 	background: #4867c0;
@@ -522,12 +511,10 @@ footer a {
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.intro_item:hover .intro_body::after
-{
+.intro_item:hover .intro_body::after {
 	opacity: 1;
 }
-.intro_title a
-{
+.intro_title a {
 	position: relative;
 	font-size: 24px;
 	font-weight: 500;
@@ -535,12 +522,10 @@ footer a {
 	z-index: 1;
 }
 .intro_item:hover .intro_title a,
-.intro_item:hover .intro_subtitle
-{
-	color: #FFFFFF;
+.intro_item:hover .intro_subtitle {
+	color: #ffffff;
 }
-.intro_subtitle
-{
+.intro_subtitle {
 	font-size: 14px;
 	font-weight: 500;
 	color: #888888;
@@ -554,7 +539,7 @@ footer a {
 	transition: all 200ms ease;
 }
 
-.fit-logo{
+.fit-logo {
 	width: 5%;
 	height: 5%;
 }
