@@ -388,11 +388,17 @@ footer a {
 }
 
 .copyright-section div {
+	height: 5vh;
+
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .copyright-section p {
+	display: block;
+	margin: 0;
+	padding: 0;
 	font-size: clamp(0.7em, 0.2em + 1vw, 1em);
 }
 
