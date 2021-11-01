@@ -459,6 +459,12 @@ footer a {
 	}
 }
 
+/* local section */
+
+.section-local h2 {
+	padding: 1em;
+}
+
 .carousel-item {
 	width: 70%;
 	height: 50vh;
@@ -496,4 +502,23 @@ footer a {
 .local-body {
 	width: 90%;
 	margin: auto;
+}
+
+.carousel-item::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+.carousel-item::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+.carousel-item::-webkit-scrollbar-thumb {
+	background: var(--color-orange);
+}
+
+/* Handle on hover */
+.carousel-item::-webkit-scrollbar-thumb:hover {
+	background: var(--color-local-link);
 }
