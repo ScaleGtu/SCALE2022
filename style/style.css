@@ -231,7 +231,7 @@ main {
 /* about section */
 
 .about {
-	height: 50vh;
+	min-height: 50vh;
 	padding: 1em;
 
 	display: flex;
@@ -283,7 +283,7 @@ main {
 
 .event-timer .times .values {
 	margin: 0;
-	font-size: 1em;
+	font-size: clamp(0.5em, 0.1em + 1vw, 1em);
 }
 
 /* general section configuration */
