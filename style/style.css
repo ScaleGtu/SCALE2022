@@ -413,6 +413,10 @@ footer a {
 		display: none;
 	}
 
+	.fit-logo {
+		display: block;
+	}
+
 	nav {
 		position: fixed;
 		padding: 0.1em 0;
