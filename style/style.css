@@ -71,6 +71,21 @@ li {
 
 /* logo */
 
+.logo-href {
+	display: block;
+}
+
+.logo-href img {
+	width: 100%;
+}
+
+.logo-href:hover,
+.logo-href:active {
+	color: initial;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
 .logo-mobile {
 	margin: 1.5em auto;
 	width: 30%;

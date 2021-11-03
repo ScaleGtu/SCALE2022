@@ -8,3 +8,9 @@
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 }
+
+/* since there is a lat of space */
+
+nav ul {
+	justify-content: space-around;
+}
