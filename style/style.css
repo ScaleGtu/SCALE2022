@@ -101,6 +101,7 @@ nav {
 	top: 0;
 	left: 0;
 	right: 0;
+	z-index: 999999999;
 
 	width: 90%;
 	margin: auto;
@@ -337,7 +338,7 @@ main {
 /* event events section */
 
 .events {
-	margin: 1em;
+	margin: 5em 0;
 }
 
 .events h3 {
@@ -345,9 +346,14 @@ main {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+
+	font-size: clamp(1em, 3vw + 0.3em, 1.9em);
 }
 
 .event-container {
+	width: 100%;
+	margin: auto;
+	max-width: 900px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -383,7 +389,7 @@ main {
 	align-items: center;
 	text-align: center;
 
-	font-size: clamp(0.5em, 0.3em + 1vw, 1em);
+	font-size: clamp(0.4em, 0.2em + 1vw, 0.75em);
 
 	background-color: #201f1d6b;
 	border-bottom-left-radius: 1.1em;
