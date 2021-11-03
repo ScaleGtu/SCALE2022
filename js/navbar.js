@@ -1,5 +1,6 @@
 const nav = document.querySelector("nav");
 const button = document.querySelector(".close-nav-btn");
+const buttonItem = document.querySelector(".close-nav-btn i");
 
 button.addEventListener('click', () => {
     if (nav.classList.contains("nav-mobile-closed"))
@@ -14,11 +15,12 @@ button.addEventListener('click', () => {
     }
 });
 
+// close navbar when clicked to outside
 document.addEventListener("click", (event) => {
-    
-    if (event.target != button)
+
+    // check if button or button element (i) clicked or not
+    if (event.target != button && event.target != buttonItem)
     {
-        console.log("window section");
         nav.classList.remove("nav-mobile-closed");
         button.classList.remove("fixed");
     }
