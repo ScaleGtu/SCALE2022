@@ -363,7 +363,7 @@ footer a {
 
 .footer {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .social-media {
@@ -393,7 +393,7 @@ footer a {
 	height: 5vh;
 
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
